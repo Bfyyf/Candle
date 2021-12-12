@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Internet Art</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    <link href="csshake.min.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      body { 
+        background-color: black;
+        background-image: url("img/candle1.gif");
+        background-repeat: no-repeat;
+        background-position: 300px 10px;
+        background-size: 600px 600px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        text-align: center;
+      }
+      h1,
+      h3 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 100;
+        color: white;
+      }
+      h1 { font-size: 5em }
+      h3 { font-size: 2em }
+      h2 {
+        color: white;
+      }
+      a { color: inherit; }
+      .main-title:after {
+          content: attr(title);
+          position: absolute;
+          font-size: .25em;
+          margin-left: -1em;
+          color: rgba(255, 255, 255, 0.7);
+      }
+      img {
+        position: relative;
+        top: -100px;
+        right: -300px;
+      }
+      .btn {
+        display: inline-block;
+        background-color: transparent;
+        border: 1px solid;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin: .5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .3s;
+        padding: 1.3em;
+        position: relative;
+      }
+      .frame1 {
+        float: left;
+        position: relative;
+        left: 15px;
+      }
+      .frame2 {
+        width: 110%;
+        margin: 0 auto;
+      }
+      .frame3 {
+        float: left;
+        position: relative;
+        left: 30px;
+        top: -50px;
+        z-index: 2;
+      }
+      .frame4 {
+        float: right;
+        position: relative;
+        right: -150px;
+        top: -100px;
+        z-index: 2;
+      }
+      .frame5 {
+        z-index: 2;
+      }
+      .frame6 {
+        float: right;
+        position: relative;
+        top: -320px;
+      }
+      .firework {
+        width: 140%;
+        position: relative;
+      }
+      .afternoon {
+        position: relative;
+        left: -350px;
+      }
+      .the-light {
+        width: 20%;
+        margin: 0 auto;
+        position: relative;
+        left: -100px;
+        top: 20px;
+      }
+      .of-a-candle {
+        float: right;
+        position: relative;
+        top: -100px;
+      }
+      .is-transferred {
+        position: relative;
+        left: -100px;
+      }
+      .another-candle {
+        position: relative;
+        left: -50px;
+      }
+      .spring-twilight {
+        width: 120%;
+        margin: 0 auto;
+        position: relative;
+        top: -110px;
+        z-index: -1;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="frame1">
+    <video width="400" controls>
+    <source src="img/Street.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video><h2>Street Lights</h2>
+    </div>
+    
+    <h1 class="the-light shake-slow shake-constant shake-constant--hover">The light</h1>
+    
+      <div class="frame2">
+        <video width="400" controls>
+    <source src="img/fireworks.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video>
+      </div>
+      <h2 class="firework">Fireworks</h2>
+
+
+    <h1 class="of-a-candle shake-slow shake-constant shake-constant--hover">of a candle</h1>
+
+      <div class="frame3">
+        <video width="300" controls>
+    <source src="img/Running.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video><h2>Running At Dawn</h2>
+      </div>
+
+    <h1 class="is-transferred shake-slow shake-constant shake-constant--hover">Is transferred</h1>
+
+      <div class="frame4">
+        <video width="400" controls>
+    <source src="img/Sky.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video><h2>Morning Skyline</h2>
+      </div>
+
+<br>
+
+    <h1 class="another-candle shake-slow shake-constant shake-constant--hover">to another candle</h1>
+
+    <div class="frame5">
+        <video width="400" controls>
+    <source src="img/People.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video><h2 class="afternoon">Afternoon People</h2>
+      </div>
+
+    <h1 class="spring-twilight shake shake-constant shake-constant--hover">Spring twilight</h1>
+
+    <div class="frame6">
+        <video width="300" controls>
+    <source src="img/Sunset.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+    </video><h2>Sunset And Family</h2>
+      </div>
+    
+    <a href="video.html">
+    <img src="img/candle2.gif"></a>
+
+  </body>
+</html>
